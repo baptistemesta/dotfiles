@@ -1,10 +1,6 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
 ZSH_THEME="muse"
 
 # Example aliases
@@ -58,7 +54,7 @@ alias tailf="tail -f -n 500"
 plugins=(git jump autojump history)
 
 source $ZSH/oh-my-zsh.sh
-
+source ~/.bash_profile
 # Customize to your needs...
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/baptiste/scripts:/home/baptiste/git/bonita-internal-tools/scripts:/home/baptiste/git/scripts:/home/baptiste/git/bonita-internal-tools/scripts/cluster:/home/baptiste/bin
 

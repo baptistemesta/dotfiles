@@ -1,0 +1,11 @@
+alias gk="gitk --all"
+alias xo="gnome-open"
+alias ..='cd ../'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias dud='du --max-depth=1 -h'
+alias duf='du -sh *'
+alias hgrep="fc -El 0 | grep"
+alias tailf="tail -f -n 500"
+
