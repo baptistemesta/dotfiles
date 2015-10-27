@@ -1,0 +1,8 @@
+set author-width = 10
+set show-author = true
+set show-date = relative
+set show-refs = yes
+set show-rev-graph = yes
+set line-graphics = utf-8
+
+bind generic F !git fetch
