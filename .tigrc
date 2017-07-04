@@ -1,8 +1,4 @@
-set author-width = 10
-set show-author = true
-set show-date = relative
-set show-refs = yes
-set show-rev-graph = yes
 set line-graphics = utf-8
+set main-view = id date author:width=5 commit-title:graph=v2
 
-bind generic F !git fetch
+bind main B !git checkout -b "%(prompt Enter branch name: )" %(commit)
