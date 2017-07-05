@@ -1,4 +1,4 @@
 set line-graphics = utf-8
-set main-view = id date author:width=5 commit-title:graph=v2
+set main-view = id date author:width=5 commit-title:yes,graph=v2,refs,overflow=no
 
 bind main B !git checkout -b "%(prompt Enter branch name: )" %(commit)
