@@ -6,8 +6,6 @@ ZSH_THEME="muse"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias gk="gitk --all"
-alias xo="gnome-open"
 alias ..='cd ../'
 alias ...='cd ../../'
 alias ....='cd ../../../'
@@ -16,6 +14,11 @@ alias dud='du --max-depth=1 -h'
 alias duf='du -sh *'
 alias hgrep="fc -El 0 | grep"
 alias tailf="tail -f -n 500"
+alias setJdk7='export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)'
+alias setJdk8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
+alias gw="sh gradlew"
+alias gcd="git checkout dev"
+alias glb="git for-each-ref --count=8 --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
 #---------------------------
 # file handling
 #---------------------------
